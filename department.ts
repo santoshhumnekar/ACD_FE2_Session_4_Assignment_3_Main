@@ -56,6 +56,6 @@ let it = new ITDepartment();
 it.printName();
 it.printMeeting();
 
-let bio = new AdminDepartment();
+let admin = new AdminDepartment();
 admin.printName();
 admin.printMeeting();
