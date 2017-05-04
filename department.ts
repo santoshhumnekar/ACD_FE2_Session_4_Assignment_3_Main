@@ -34,18 +34,18 @@ class ITDepartment extends Department {
 		super.printName();
 	}
 	printMeeting(): void {
-		console.log("This is a IT Depatment meeting...");
+		console.log("This is a IT Depatment");
 	}
 }
 class AdminDepartment extends Department {
-	constructor(name: string = "PlanningDepartment") {
+	constructor(name: string = "AdminDepartment") {
 		super(name);
 	}
 	printName(): void {
 		super.printName();
 	}
 	printMeeting(): void {
-		console.log("This is a Planning Depatment meeting...");
+		console.log("This is a Admin Depatment");
 	}
 }
 let acc = new AccountingDepartment();
@@ -57,5 +57,5 @@ it.printName();
 it.printMeeting();
 
 let bio = new AdminDepartment();
-bio.printName();
-bio.printMeeting();
+admin.printName();
+admin.printMeeting();
